@@ -1,379 +1,180 @@
 <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="CodeHim">
+    <title>TreeHeaven</title>
 
-        <!--=============== FAVICON ===============-->
-        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
-
-        <!--=============== REMIX ICONS ===============-->
-        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
-
-        <!--=============== CSS ===============-->
-        <link rel="stylesheet" href="assets/css/styles.css">
-
-        <title>Tree Heaven</title>
-    </head>
-    <body>
-        <!--==================== HEADER ====================-->
-        <header class="header" id="header">
-            <nav class="nav container">
-                <a href="#" class="nav__logo">
-                    <i class="ri-leaf-line nav__logo-icon"></i> Tree Heaven
-                </a>
-
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list">
-                        <li class="nav__item">
-                            <a href="#home" class="nav__link active-link">Home</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#about" class="nav__link">About</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#products" class="nav__link">Products</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="cart.html" class="nav__link">Cart</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#contact" class="nav__link">Contact Us</a>
-                        </li>
-                    </ul>
-
-                    <div class="nav__close" id="nav-close">
-                        <i class="ri-close-line"></i>
-                    </div>
-                </div>
-
-                <div class="nav__btns">
-                    <!-- Theme change button -->
-                    <i class="ri-moon-line change-theme" id="theme-button"></i>
-
-                    <div class="nav__toggle" id="nav-toggle">
-                        <i class="ri-menu-line"></i>
-                    </div>
-                </div>
-            </nav>
-        </header>
-
-        <main class="main">
-            <!--==================== HOME ====================-->
-            <section class="home" id="home">
-                <div class="home__container container grid">
-                    <img src="assets/img/home2.jpeg" alt="" class="home__img">
-
-                    <div class="home__data">
-                        <h1 class="home__title">
-                            Looking for trees for your house?<br>but not wanted to wait for them to grow?
-                        </h1>
-                        <p class="home__description">
-                            Hello <br> We are tree heaven <br> A perfect place to find your
-                        </p>
-                        <a href="#about" class="button button--flex">
-                            Explore <i class="ri-arrow-right-down-line button__icon"></i>
-                        </a>
-                    </div>
-
-                    <div class="home__social">
-                        <span class="home__social-follow">Follow Us</span>
-
-                        <div class="home__social-links">
-                            <a href="https://www.facebook.com/" target="_blank" class="home__social-link">
-                                <i class="ri-facebook-fill"></i>
-                            </a>
-                            <a href="https://www.instagram.com/" target="_blank" class="home__social-link">
-                                <i class="ri-instagram-line"></i>
-                            </a>
-                            <a href="https://twitter.com/" target="_blank" class="home__social-link">
-                                <i class="ri-twitter-fill"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!--==================== ABOUT ====================-->
-            <section class="about section container" id="about">
-                <div class="about__container grid">
-                    <img src="assets/img/about.png" alt="" class="about__img">
-
-                    <div class="about__data">
-                        <h2 class="section__title about__title">
-                            We are the company <br>Which will make your home beutifull with a green touch.
-                        </h2>
-
-                        <p class="about__description">
-                            We saw people want big tree but not wanted or unable to grow them. 
-                            That when we come in picture.
-                        </p>
-
-                        <div class="about__details">
-                            <p class="about__details-description">
-                                <i class="ri-checkbox-fill about__details-icon"></i>
-                                We always deliver on time.
-                            </p>
-                            <p class="about__details-description">
-                                <i class="ri-checkbox-fill about__details-icon"></i>
-                                We give you guides to protect and care for your plants.
-                            </p>
-                            <p class="about__details-description">
-                                <i class="ri-checkbox-fill about__details-icon"></i>
-                                We always come over for a check-up after sale.
-                            </p>
-                            <p class="about__details-description">
-                                <i class="ri-checkbox-fill about__details-icon"></i>
-                                100% money back guaranteed.
-                            </p>
-                        </div>
-
-                        <a href="#products" class="button--link button--flex">
-                            Shop Now <i class="ri-arrow-right-down-line button__icon"></i>
-                        </a>
-                    </div>
-                </div>
-            </section>
-            <!--==================== PRODUCTS ====================-->
-            <section class="product section container" id="products">
-                <h2 class="section__title-center">
-                    Check out our <br> products
-                </h2>
-
-               <div class="product__container grid">
-                    <article class="product__card">
-                        <div class="product__circle"></div>
-
-                        <img src="assets/img/round/r1.jpg" alt="" class="product__img">
-
-                        <h3 class="product__title">Peepal Tree</h3>
-                        <span class="product__price">50000/-</span>
-                        <a href="cart.html">
-                        <button class="button--flex product__button">
-                            <i class="ri-shopping-bag-line"></i>
-                        </button>
-                    </a>
-                    </article>
-
-                    <article class="product__card">
-                        <div class="product__circle"></div>
-
-                        <img src="assets/img/round/r2.jpg" alt="" class="product__img">
-
-                        <h3 class="product__title">Nutmeg Tree</h3>
-                        <span class="product__price">40000/-</span>
-                        <a href="cart.html">
-                        <button class="button--flex product__button">
-                            <i class="ri-shopping-bag-line"></i>
-                        </button>
-                    </a>
-                    </article>
-
-                    <article class="product__card">
-                        <div class="product__circle"></div>
-
-                        <img src="assets/img/round/r3.jpg" alt="" class="product__img">
-
-                        <h3 class="product__title">Neem Tree</h3>
-                        <span class="product__price">40000/-</span>
-                        <a href="cart.html">
-                        <button class="button--flex product__button">
-                            <i class="ri-shopping-bag-line"></i>
-                        </button>
-                    </a>
-                    </article>
-
-                    <article class="product__card">
-                        <div class="product__circle"></div>
-
-                        <img src="assets/img/tall/t1.jpg" alt="" class="product__img">
-
-                        <h3 class="product__title">Polyalthia Tree</h3>
-                        <span class="product__price">1000/-</span>
-                        <a href="cart.html">
-                        <button class="button--flex product__button" >
-                            <i class="ri-shopping-bag-line"></i>
-                        </button>
-                    </a>
-                    </article>
-
-                    <article class="product__card">
-                        <div class="product__circle"></div>
-
-                        <img src="assets/img/tall/t2.jpg" alt="" class="product__img">
-
-                        <h3 class="product__title">Teak Tree</h3>
-                        <span class="product__price">7500/-</span>
-                        <a href="cart.html">
-                        <button class="button--flex product__button" >
-                            <i class="ri-shopping-bag-line" ></i>
-                        </button>
-                    </a>
-                    </article>
-
-                    <article class="product__card">
-                        <div class="product__circle"></div>
-
-                        <img src="assets/img/tall/t4.jpg" alt="" class="product__img">
-
-                        <h3 class="product__title">Pine Tree</h3>
-                        <span class="product__price">12000/-</span>
-                        <a href="cart.html">
-                        <button class="button--flex product__button">
-                            <i class="ri-shopping-bag-line"></i>
-                        </button>
-                    </a>
-                    </article>
-                    <a href="talltree.html" class="button button--flex">
-                        Tall Tree <i class="ri-arrow-right-down-line button__icon"></i>
-                    </a>
-                    <a href="roundtree.html" class="button button--flex">
-                        Round Tree <i class="ri-arrow-right-down-line button__icon"></i>
-                    </a>
-                </div>
-            </section>
-
-            <!--==================== CONTACT ====================-->
-            <section class="contact section container" id="contact">                
-                <div class="contact__container grid">
-                    <div class="contact__box">
-                        <h2 class="section__title">
-                            Hello! How can we help you.  <br> Please feel free to contact our <br> support team: it will be helpful for us and also for you
-                        </h2>
-
-                        <div class="contact__data">
-                            <div class="contact__information">
-                                <h3 class="contact__subtitle">Call us for instant support</h3>
-                                <span class="contact__description">
-                                    <i class="ri-phone-line contact__icon"></i>
-                                    +91 93133 73956
-                                </span>
-                            </div>
-
-                            <div class="contact__information">
-                                <h3 class="contact__subtitle">Write us by mail</h3>
-                                <span class="contact__description">
-                                    <i class="ri-mail-line contact__icon"></i>
-                                    aryapurvang@gmail.com
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <form action="https://formsubmit.co/aryapurvang@gmail.com" class="contact__form" method="post">
-                        <div class="contact__inputs">
-                            <div class="contact__content">
-                                <input type="text" placeholder="Name" class="contact__input" name="name" required>
-                            </div>
-
-                            <div class="contact__content">
-                                <input type="email" placeholder="Email" class="contact__input" name="email" required>
-                            </div>
-
-                            <div class="contact__content">
-                                <input type="text" placeholder="Phone Number" class="contact__input" name="phone-number" required>
-                            </div>
-
-                            <div class="contact__content">
-                                <input type="text" placeholder="Subject" class="contact__input" name="Subject" required>
-                            </div>
-
-                            <div class="contact__content contact__area">
-                                <textarea name="message" placeholder="Message" class="contact__input" required></textarea>                              
-                            </div>
-                        </div>
-                        <input type="hidden" name="_captcha" value="false">
-                        <input type="hidden" name="_template" value="table">
-                        <input type="hidden" name="_autoresponse" value="Thank you for response.">
-
-                        <button type="submit" class="button button--flex">
-                            Send Message
-                            <i class="ri-arrow-right-up-line button__icon"></i>
-                        </button>
-                    </form>
-                </div>
-            </section>
-        </main>
-
-        <!--==================== FOOTER ====================-->
-        <footer class="footer section">
-            <div class="footer__container container grid">
-                <div class="footer__content">
-                    <a href="#" class="footer__logo">
-                        <i class="ri-leaf-line footer__logo-icon"></i> TreeHeaven
-                    </a>
-
-                    <h3 class="footer__title">
-                        Subscribe to our newsletter <br> to stay update
-                    </h3>
-
-                    <div class="footer__subscribe">
-                        <input type="email" placeholder="Enter your email" class="footer__input">
-
-                        <button class="button button--flex footer__button">
-                            Subscribe
-                            <i class="ri-arrow-right-up-line button__icon"></i>
-                        </button>
-                    </div>
-                </div>
-
-                <div class="footer__content">
-                    <h3 class="footer__title">Our Address</h3>
-
-                    <ul class="footer__data">
-                        <li class="footer__information">Taj Vivanta ,Akota </li>
-                        <li class="footer__information">Vadodara,Gujarat - 43210</li>
-                    </ul>
-                </div>
-
-                <div class="footer__content">
-                    <h3 class="footer__title">Contact Us</h3>
-
-                    <ul class="footer__data">
-                        <li class="footer__information">+91 93133 73956</li>
-                        
-                        <div class="footer__social">
-                            <a href="https://www.facebook.com/" class="footer__social-link">
-                                <i class="ri-facebook-fill"></i>
-                            </a>
-                            <a href="https://www.instagram.com/" class="footer__social-link">
-                                <i class="ri-instagram-line"></i>
-                            </a>
-                            <a href="https://twitter.com/" class="footer__social-link">
-                                <i class="ri-twitter-fill"></i>
-                            </a>
-                            <a href="http://youtube.com/" class="footer__social-link">
-                                <i class="ri-youtube-fill"></i>
-                            </a>
-                        </div>
-                    </ul>
-                </div>
-
-                <div class="footer__content">
-                    <h3 class="footer__title">
-                        We accept all credit cards
-                    </h3>
-
-                    <div class="footer__cards">
-                        <img src="assets/img/card1.png" alt="" class="footer__card">
-                        <img src="assets/img/card2.png" alt="" class="footer__card">
-                        <img src="assets/img/card3.png" alt="" class="footer__card">
-                        <img src="assets/img/card4.png" alt="" class="footer__card">
-                    </div>
-                </div>
-            </div>
-        </footer>
-
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="assets/css/cart.css">
+    <style>
+        a {
+          text-decoration: none;
+          display: inline-block;
+          padding: 8px 16px;
+        }
         
-        <!--=============== SCROLL UP ===============-->
-        <a href="#" class="scrollup" id="scroll-up"> 
-            <i class="ri-arrow-up-fill scrollup__icon"></i>
-        </a>
-
-        <!--=============== SCROLL REVEAL ===============-->
-        <script src="assets/js/scrollreveal.min.js"></script>
+        a:hover {
+          background-color: #ddd;
+          color: black;
+        }
         
-        <!--=============== MAIN JS ===============-->
-        <script src="assets/js/main.js"></script>
-    </body>
+        .previous {
+          background-color: #f1f1f1;
+          color: black;
+        }
+        
+        .next {
+          background-color: #04AA6D;
+          color: white;
+        }
+        
+        .round {
+          border-radius: 50%;
+        }
+        </style>
+
+  
+  </head>
+  <body>  
+    <header id="site-header">
+		<div class="container">
+            <a href="index.html" class="previous">&laquo; Previous</a>
+			<h1>Shopping cart</span></h1>
+		</div>
+	</header>
+    
+    <main>
+	<div class="container">
+
+		<section id="cart"> 
+			<article class="product">
+				<header>
+					<a class="remove">
+						<img src="assets/img/tall/t1.jpg" alt="Gamming Mouse">
+
+						<h3>Remove product</h3>
+					</a>
+				</header>
+
+				<div class="content">
+
+					<h1>Polyalthia Tree</h1>
+
+					This graceful Polyalthia tree is a stunning addition to any landscape.
+
+				</div>
+
+				<footer class="content">
+					<span class="qt-minus">-</span>
+					<span class="qt">2</span>
+					<span class="qt-plus">+</span>
+
+					<h2 class="full-price">
+						1000/-
+					</h2>
+
+					<h2 class="price">
+						1000/-
+					</h2>
+				</footer>
+			</article>
+
+			<article class="product">
+				<header>
+					<a class="remove">
+						<img src="assets/img/round/r2.jpg" alt="Keyboard">
+
+						<h3>Remove product</h3>
+					</a>
+				</header>
+
+				<div class="content">
+
+					<h1>Nutmeg Tree</h1>
+
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, numquam quis perspiciatis ea ad omnis provident laborum dolore in atque.
+
+					</div>
+
+				<footer class="content">
+					
+					<span class="qt-minus">-</span>
+					<span class="qt">1</span>
+					<span class="qt-plus">+</span>
+
+					<h2 class="full-price">
+						40000/-
+					</h2>
+
+					<h2 class="price">
+						40000/-
+					</h2>
+				</footer>
+			</article>
+
+			<article class="product">
+				<header>
+					<a class="remove">
+						<img src="assets/img/tall/t3.jpg" alt="Handfree">
+
+						<h3>Remove product</h3>
+					</a>
+				</header>
+
+				<div class="content">
+
+					<h1>Sandal Tree</h1>
+
+					This prized sandalwood tree is a treasure waiting to enhance your garden or plantation. Known for its aromatic heartwood, this tree is a symbol of luxury and tranquility.
+
+					
+				</div>
+
+				<footer class="content">
+					
+					<span class="qt-minus">-</span>
+					<span class="qt">3</span>
+					<span class="qt-plus">+</span>
+
+					<h2 class="full-price">
+						10000/-
+					</h2>
+
+					<h2 class="price">
+						10000/-
+					</h2>
+				</footer>
+			</article>
+
+		</section>
+
+	</div>
+
+	<footer id="site-footer">
+		<div class="container clearfix">
+
+			<div class="left">
+				<h2 class="subtotal">Subtotal: <span>72000</span>/-</h2>
+				<h3 class="tax">Taxes (5%): <span>8.2</span>/-</h3>
+				<h3 class="shipping">Shipping: <span>60000</span>/-</h3>
+			</div>
+
+			<div class="right">
+				<h1 class="total">Total: <span>136100</span>/-</h1>
+				<a class="btn" href="payment.html">Checkout</a>
+			</div>
+
+		</div>
+	</footer>
+     <!-- END EDMO HTML (Happy Coding!)-->
+ </main>
+ 
+      
+  
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script  src="assets/js/cart.js"></script> 
+      
+  </body>
 </html>
