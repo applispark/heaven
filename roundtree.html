@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+        <!--=============== REMIX ICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <style>
+            div.gallery {
+              border: 1px solid #ccc;
+            }
+            
+            div.gallery:hover {
+              border: 1px solid #777;
+            }
+            
+            div.gallery img {
+              width: 100%;
+              height: auto;
+            }
+            
+            div.desc {
+              padding: 15px;
+              text-align: center;
+            }
+            
+            * {
+              box-sizing: border-box;
+            }
+            
+            .responsive {
+              padding: 0 6px;
+              float: left;
+              width: 50%;
+            }
+            
+            @media only screen and (max-width: 700px) {
+              .responsive {
+                width: 49.99999%;
+                margin: 6px 0;
+              }
+            }
+            
+            @media only screen and (max-width: 500px) {
+              .responsive {
+                width: 100%;
+              }
+            }
+            
+            .clearfix:after {
+              content: "";
+              display: table;
+              clear: both;
+            }
+            </style>
+
+        <title>Tree Heaven</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">
+                    <i class="ri-leaf-line nav__logo-icon"></i> Tree Heaven
+                </a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="index.html#home" class="nav__link active-link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="index.html#about" class="nav__link">About</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="index.html#products" class="nav__link">Products</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="cart.html" class="nav__link">Cart</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="index.html#contact" class="nav__link">Contact Us</a>
+                        </li>
+                    </ul>
+
+                    <div class="nav__close" id="nav-close">
+                        <i class="ri-close-line"></i>
+                    </div>
+                </div>
+
+                <div class="nav__btns">
+                    <!-- Theme change button -->
+                    <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="ri-menu-line"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!-- Gallery -->
+
+        
+<div class="responsive">
+    <div class="gallery">
+      <a target="_blank" >
+        <img src="assets/img/round/round1.jpeg" alt="peepal" width="600" height="400">
+      </a>
+      <div class="desc">Peepal</div>
+      <div class="desc">Revered for its spiritual significance, the Peepal tree holds a special place in culture and tradition. With its heart-shaped leaves and serene presence, it brings a sense of tranquility to any environment. Often planted near temples and meditation spaces, this tree is a symbol of enlightenment and inner peace. Embrace the spiritual essence of the Peepal tree and invite its sacred energy into your surroundings.</div>
+      <div class="product__price desc">50000/-</div>
+      <a href="cart.html" class="button button--flex">
+        Add To Cart <i class="ri-arrow-right-down-line button__icon"></i>
+    </a>
+    </div>
+  </div>
+  
+  
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" >
+        <img src="assets/img/round/round2.jpeg" alt="peepal" width="600" height="400">
+      </a>
+      <div class="desc">Nutmeg</div>
+      <div class="desc">This Nutmeg tree is a culinary treasure waiting to grace your garden. Known for its aromatic spice, the Nutmeg tree produces flavorful seeds that add depth to both sweet and savory dishes. Its glossy, evergreen leaves and vibrant fruits make it an attractive addition to any landscape. Elevate your culinary experience by growing your own Nutmeg tree and savor the exotic flavors it offers.In the realm of sleep support, nutmeg has gained attention for its natural sedative properties.</div>
+      <div class="product__price desc">40000/-</div>
+      <a href="cart.html" class="button button--flex">
+        Add To Cart <i class="ri-arrow-right-down-line button__icon"></i>
+    </a>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" >
+        <img src="assets/img/round/round3.jpeg" alt="peepal" width="600" height="400">
+      </a>
+      <div class="desc">Neem</div>
+      <div class="desc">The Neem tree, hailed as the 'Village Pharmacy,' is a valuable addition to any garden. Revered for its medicinal properties, it offers natural remedies for a range of ailments. With its feathery foliage and small, fragrant flowers, it also adds aesthetic appeal to your landscape. Harness the power of Neem and its countless benefits by welcoming this remarkable tree into your garden today.</div>
+      <div class="product__price desc">40000/-</div>
+      <a href="cart.html" class="button button--flex">
+        Add To Cart <i class="ri-arrow-right-down-line button__icon"></i>
+    </a>
+    </div>
+  </div>
+  
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" >
+        <img src="assets/img/round/round4.jpeg" alt="peepal" width="600" height="400">
+      </a>
+      <div class="desc">Banyan</div>
+      <div class="desc">The banyan tree, an awe-inspiring Ficus benghalensis, is an exquisite addition to any landscape. Its majestic canopy and iconic aerial roots make it a captivating centerpiece for gardens, parks, or properties. This timeless symbol of natural beauty not only offers shade and tranquility but also carries cultural and spiritual significance. Enhance your surroundings with the grace and grandeur of a banyan tree, a living masterpiece that's sure to leave a lasting impression.</div>
+      <div class="product__price desc">75000/-</div>
+      <a href="cart.html" class="button button--flex">
+        Add To Cart <i class="ri-arrow-right-down-line button__icon"></i>
+    </a>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" >
+        <img src="assets/img/round/round5.jpeg" alt="peepal" width="600" height="400">
+      </a>
+      <div class="desc">Oak</div>
+      <div class="desc">This magnificent Oak tree is a timeless emblem of strength and grandeur. With its broad canopy of lush, green leaves and sturdy, enduring trunk, it exudes natural beauty and resilience. Oak wood is highly prized for its durability and is ideal for furniture and construction. Enhance your landscape with the regal presence of this Oak tree and enjoy its lasting legacy for generations to come.</div>
+      <div class="product__price desc">30000/-</div>
+      <a href="cart.html" class="button button--flex">
+        Add To Cart <i class="ri-arrow-right-down-line button__icon"></i>
+    </a>
+    </div>
+  </div>
+
+
+
+
+        
+        <!--=============== SCROLL UP ===============-->
+        <a href="#" class="scrollup" id="scroll-up"> 
+            <i class="ri-arrow-up-fill scrollup__icon"></i>
+        </a>
+
+        <!--=============== SCROLL REVEAL ===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+        
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>

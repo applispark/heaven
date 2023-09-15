@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+        <!--=============== REMIX ICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <style>
+            div.gallery {
+              border: 1px solid #ccc;
+            }
+            
+            div.gallery:hover {
+              border: 1px solid #777;
+            }
+            
+            div.gallery img {
+              width: 100%;
+              height: auto;
+            }
+            
+            div.desc {
+              padding: 15px;
+              text-align: center;
+            }
+            
+            * {
+              box-sizing: border-box;
+            }
+            
+            .responsive {
+              padding: 0 6px;
+              float: left;
+              width: 50%;
+            }
+            
+            @media only screen and (max-width: 700px) {
+              .responsive {
+                width: 49.99999%;
+                margin: 6px 0;
+              }
+            }
+            
+            @media only screen and (max-width: 500px) {
+              .responsive {
+                width: 100%;
+              }
+            }
+            
+            .clearfix:after {
+              content: "";
+              display: table;
+              clear: both;
+            }
+            </style>
+
+        <title>Tree Heaven</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">
+                    <i class="ri-leaf-line nav__logo-icon"></i> Tree Heaven
+                </a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="index.html#home" class="nav__link active-link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="index.html#about" class="nav__link">About</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="index.html#products" class="nav__link">Products</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="cart.html" class="nav__link">Cart</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="index.html#contact" class="nav__link">Contact Us</a>
+                        </li>
+                    </ul>
+
+                    <div class="nav__close" id="nav-close">
+                        <i class="ri-close-line"></i>
+                    </div>
+                </div>
+
+                <div class="nav__btns">
+                    <!-- Theme change button -->
+                    <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="ri-menu-line"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!-- Gallery -->
+
+        
+<div class="responsive">
+    <div class="gallery">
+      <a target="_blank" >
+        <img src="assets/img/tall/tall1.jpeg" alt="peepal" width="600" height="400">
+      </a>
+      <div class="desc">Polyaithia</div>
+      <div class="desc">This graceful Polyalthia tree is a stunning addition to any landscape. With its slender, evergreen leaves and unique, umbrella-like canopy, it adds a touch of tropical beauty to your garden. Ideal for providing shade and a serene atmosphere, the Polyalthia tree is known for its ornamental appeal. Don't miss the chance to bring this enchanting tree to your outdoor space and enjoy its natural charm.</div>
+      <div class="product__price desc">1000/-</div>
+      <a href="cart.html" class="button button--flex">
+        Add To Cart <i class="ri-arrow-right-down-line button__icon"></i>
+    </a>
+    </div>
+  </div>
+  
+  
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" >
+        <img src="assets/img/tall/tall2.jpeg" alt="peepal" width="600" height="400">
+      </a>
+      <div class="desc">Teak</div>
+      <div class="desc">This majestic teak tree is a testament to nature's craftsmanship. Renowned for its durability and exquisite wood, teak is the gold standard in outdoor furniture and decking. With its elegant, dense foliage and rich, golden-brown timber, this tree adds timeless beauty to any landscape. Invest in the legacy of teak and elevate your outdoor space with this exceptional and valuable tree.</div>
+      <div class="product__price desc">7500/-</div>
+      <a href="cart.html" class="button button--flex">
+        Add To Cart <i class="ri-arrow-right-down-line button__icon"></i>
+    </a>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" >
+        <img src="assets/img/tall/tall3.jpeg" alt="peepal" width="600" height="400">
+      </a>
+      <div class="desc">Sandal</div>
+      <div class="desc">This prized sandalwood tree is a treasure waiting to enhance your garden or plantation. Known for its aromatic heartwood, this tree is a symbol of luxury and tranquility. With its fragrant, fine-grained wood, it's perfect for perfumery, woodworking, and spiritual ceremonies. Invest in the allure of sandalwood and bring elegance to your surroundings with this rare and valuable tree.</div>
+      <div class="product__price desc">10000/-</div>
+      <a href="cart.html" class="button button--flex">
+        Add To Cart <i class="ri-arrow-right-down-line button__icon"></i>
+    </a>
+    </div>
+  </div>
+  
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" >
+        <img src="assets/img/tall/tall4.jpeg" alt="Pine" width="600" height="400">
+      </a>
+      <div class="desc">Pine</div>
+      <div class="desc">This magnificent evergreen pine tree stands tall with lush, needle-like foliage. Perfect for adding natural charm to your landscape, its fresh scent and vibrant greenery will enhance any outdoor space. Ideal for the upcoming holiday season, this pine tree is a symbol of enduring beauty and is ready to grace your home. Don't miss the opportunity to make this stunning pine tree yours today!</div>
+      <div class="product__price desc">12000/-</div>
+      <a href="cart.html" class="button button--flex">
+        Add To Cart <i class="ri-arrow-right-down-line button__icon"></i>
+    </a>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" >
+        <img src="assets/img/tall/tall5.jpeg" alt="peepal" width="600" height="400">
+      </a>
+      <div class="desc">Babul</div>
+      <div class="desc">The Babul tree, with its delicate fern-like leaves and sturdy presence, is a symbol of resilience and beauty. Known for its versatile uses, from traditional medicine to woodworking, it offers both aesthetic appeal and practicality. This hardy tree thrives in various climates, making it a wise addition to your landscape. Bring the charm and utility of the Babul tree to your property and experience the natural wonder it has to offer.</div>
+      <div class="product__price desc">40000/-</div>
+      <a href="cart.html" class="button button--flex">
+        Add To Cart <i class="ri-arrow-right-down-line button__icon"></i>
+    </a>
+    </div>
+  </div>
+
+
+
+
+        
+        <!--=============== SCROLL UP ===============-->
+        <a href="#" class="scrollup" id="scroll-up"> 
+            <i class="ri-arrow-up-fill scrollup__icon"></i>
+        </a>
+
+        <!--=============== SCROLL REVEAL ===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+        
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
